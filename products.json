@@ -1,0 +1,30 @@
+{
+  "Shoes": {
+    "Sports": [
+      {
+        "id": 1,
+        "name": "Nike Running Shoes",
+        "price": 3500,
+        "image": "images/shoes1.jpg"
+      }
+    ],
+    "Boots": [
+      {
+        "id": 2,
+        "name": "Leather Boots",
+        "price": 5000,
+        "image": "images/boots1.jpg"
+      }
+    ]
+  },
+  "Trousers": {
+    "Jeans": [
+      {
+        "id": 3,
+        "name": "Blue Jeans",
+        "price": 2000,
+        "image": "images/trouser.jpg"
+      }
+    ]
+  }
+}
