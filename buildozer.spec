@@ -39,7 +39,7 @@ android.debug_artifact = apk
 android.accept_sdk_license = True
 
 # Fix p4a compatibility
-p4a.branch = stable
+# p4a.branch = stable
 
 [buildozer]
 log_level = 2
