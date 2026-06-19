@@ -1,0 +1,118 @@
+# Check configuration tokens
+# Ensure build layout
+# Check configuration tokens
+# Preparing build
+# Check requirements for android
+# Search for Git (git)
+#  -> found at /usr/bin/git
+# Search for Cython (cython)
+#  -> found at /home/samson/.local/bin/cython
+# Search for Java compiler (javac)
+#  -> found at /usr/lib/jvm/java-21-openjdk-amd64/bin/javac
+# Search for Java keytool (keytool)
+#  -> found at /usr/lib/jvm/java-21-openjdk-amd64/bin/keytool
+# Install platform
+# Run ['git', 'clone', '-b', 'master', '--single-branch', 'https://github.com/kivy/python-for-android.git', 'python-for-android']
+# Cwd /home/samson/fashion_app/.buildozer/android/platform
+Cloning into 'python-for-android'...
+error: RPC failed; curl 56 GnuTLS recv error (-9): Error decoding the received TLS packet.
+error: 2785 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+# Command failed: ['git', 'clone', '-b', 'master', '--single-branch', 'https://github.com/kivy/python-for-android.git', 'python-for-android']
+# ENVIRONMENT:
+#     LESS_TERMCAP_se = '\x1b[0m'
+#     POWERSHELL_TELEMETRY_OPTOUT = '1'
+#     LANGUAGE = 'en_NG:en'
+#     USER = 'samson'
+#     LESS_TERMCAP_ue = '\x1b[0m'
+#     TEXTDOMAIN = 'im-config'
+#     XDG_SEAT = 'seat0'
+#     DOTNET_CLI_TELEMETRY_OPTOUT = '1'
+#     SSH_AGENT_PID = '1913'
+#     XDG_SESSION_TYPE = 'x11'
+#     SHLVL = '2'
+#     XDG_CACHE_HOME = '/home/samson/.cache'
+#     HOME = '/home/samson'
+#     OLDPWD = '/home/samson'
+#     DESKTOP_SESSION = 'lightdm-xsession'
+#     IM_CONFIG_ENTRY = 'xsession-im-launch-success'
+#     PANEL_GDK_CORE_DEVICE_EVENTS = '0'
+#     PYENV_SHELL = 'zsh'
+#     GTK_MODULES = 'gail:atk-bridge'
+#     XDG_SEAT_PATH = '/org/freedesktop/DisplayManager/Seat0'
+#     LESS_TERMCAP_so = '\x1b[01;33m'
+#     DBUS_SESSION_BUS_ADDRESS = 'unix:path=/run/user/1000/bus'
+#     NMAP_PRIVILEGED = ''
+#     COLORTERM = 'truecolor'
+#     COMMAND_NOT_FOUND_INSTALL_PROMPT = '1'
+#     QT_QPA_PLATFORMTHEME = 'qt5ct'
+#     GTK_IM_MODULE = 'ibus'
+#     LOGNAME = 'samson'
+#     QT_AUTO_SCREEN_SCALE_FACTOR = '0'
+#     WINDOWID = '0'
+#     LESS_TERMCAP_us = '\x1b[1;32m'
+#     _ = '/home/samson/fashion_app/.venv/bin/buildozer'
+#     COLORFGBG = '15;0'
+#     XDG_SESSION_CLASS = 'user'
+#     PIP_BREAK_SYSTEM_PACKAGES = '1'
+#     TERM = 'xterm-256color'
+#     XDG_SESSION_ID = '2'
+#     PATH = '/home/samson/.buildozer/android/platform/apache-ant-1.9.4/bin:/home/samson/fashion_app/.venv/bin:/home/samson/.pyenv/shims:/home/samson/.pyenv/bin:/home/samson/.pyenv/bin:/home/samson/.pyenv/bin:/home/samson/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/samson/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/samson/.pyenv/bin:/home/samson/.pyenv/bin:/home/samson/.pyenv/bin:/home/samson/.local/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin:/home/samson/.dotnet/tools:/home/samson/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'
+#     SESSION_MANAGER = 'local/kali:@/tmp/.ICE-unix/1354,unix/kali:/tmp/.ICE-unix/1354'
+#     XDG_MENU_PREFIX = 'xfce-'
+#     XDG_RUNTIME_DIR = '/run/user/1000'
+#     XDG_SESSION_PATH = '/org/freedesktop/DisplayManager/Session0'
+#     DISPLAY = ':0.0'
+#     LANG = 'en_US.UTF-8'
+#     POWERSHELL_UPDATECHECK = 'Off'
+#     XDG_CURRENT_DESKTOP = 'XFCE'
+#     XAUTHORITY = '/home/samson/.Xauthority'
+#     XDG_CONFIG_HOME = '/home/samson/.config'
+#     XDG_SESSION_DESKTOP = 'lightdm-xsession'
+#     XMODIFIERS = '@im=ibus'
+#     LS_COLORS = 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.7z=01;31:*.ace=01;31:*.alz=01;31:*.apk=01;31:*.arc=01;31:*.arj=01;31:*.bz=01;31:*.bz2=01;31:*.cab=01;31:*.cpio=01;31:*.crate=01;31:*.deb=01;31:*.drpm=01;31:*.dwm=01;31:*.dz=01;31:*.ear=01;31:*.egg=01;31:*.esd=01;31:*.gz=01;31:*.jar=01;31:*.lha=01;31:*.lrz=01;31:*.lz=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.lzo=01;31:*.pyz=01;31:*.rar=01;31:*.rpm=01;31:*.rz=01;31:*.sar=01;31:*.swm=01;31:*.t7z=01;31:*.tar=01;31:*.taz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tgz=01;31:*.tlz=01;31:*.txz=01;31:*.tz=01;31:*.tzo=01;31:*.tzst=01;31:*.udeb=01;31:*.war=01;31:*.whl=01;31:*.wim=01;31:*.xz=01;31:*.z=01;31:*.zip=01;31:*.zoo=01;31:*.zst=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.jxl=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90::ow=30;44:'
+#     SSH_AUTH_SOCK = '/home/samson/.ssh/agent/s.RDJpj98jBr.agent.3kZOMXQ1wt'
+#     XDG_GREETER_DATA_DIR = '/var/lib/lightdm/data/samson'
+#     SHELL = '/usr/bin/zsh'
+#     GDMSESSION = 'lightdm-xsession'
+#     QT_ACCESSIBILITY = '1'
+#     LESS_TERMCAP_mb = '\x1b[1;31m'
+#     TEXTDOMAINDIR = '/usr/share/locale/'
+#     QT_IM_MODULE = 'ibus'
+#     XDG_VTNR = '7'
+#     LESS_TERMCAP_md = '\x1b[1;36m'
+#     PWD = '/home/samson/fashion_app'
+#     LESS_TERMCAP_me = '\x1b[0m'
+#     CLUTTER_IM_MODULE = 'ibus'
+#     XDG_CONFIG_DIRS = '/etc/xdg'
+#     XDG_DATA_DIRS = '/usr/share/xfce4:/usr/share/gnome:/home/samson/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'
+#     PYENV_ROOT = '/home/samson/.pyenv'
+#     CHROME_DESKTOP = 'code.desktop'
+#     FC_FONTATIONS = '1'
+#     GDK_BACKEND = 'x11'
+#     TERM_PROGRAM = 'vscode'
+#     TERM_PROGRAM_VERSION = '1.120.0'
+#     GIT_ASKPASS = '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'
+#     VSCODE_GIT_ASKPASS_NODE = '/usr/share/code/code'
+#     VSCODE_GIT_ASKPASS_EXTRA_ARGS = ''
+#     VSCODE_GIT_ASKPASS_MAIN = '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'
+#     VSCODE_GIT_IPC_HANDLE = '/run/user/1000/vscode-git-de27559ee8.sock'
+#     PYTHONSTARTUP = '/home/samson/.config/Code/User/workspaceStorage/75bd6be6c3a8cfd5c16c539a85d126f5/ms-python.python/pythonrc.py'
+#     PYTHON_BASIC_REPL = '1'
+#     PYDEVD_DISABLE_FILE_VALIDATION = '1'
+#     VSCODE_DEBUGPY_ADAPTER_ENDPOINTS = '/home/samson/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c0c44859b565a09c.txt'
+#     BUNDLED_DEBUGPY_PATH = '/home/samson/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'
+#     VSCODE_INJECTION = '1'
+#     ZDOTDIR = '/home/samson'
+#     USER_ZDOTDIR = '/home/samson'
+#     VSCODE_PYTHON_AUTOACTIVATE_GUARD = '1'
+#     VIRTUAL_ENV = '/home/samson/fashion_app/.venv'
+#     LC_CTYPE = 'C.UTF-8'
+# 
+# Buildozer failed to execute the last command
+# The error might be hidden in the log above this error
+# Please read the full log, and search for it before
+# raising an issue with buildozer itself.
+# In case of a bug report, please add a full log with log_level = 2
