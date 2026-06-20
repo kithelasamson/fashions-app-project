@@ -1,0 +1,34 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Buildozer
+.buildozer/
+bin/
+
+# VS Code
+.vscode/
+
+# Android
+.gradle/
+
+.env
+*.db
+*.apk
+*.aab
+
+venv/
+.venv/
+
+.buildozer/
+bin/
+
+*.zip
+*.db
+
+__pycache__/
+*.pyc
+
+wget-log
+build.log
