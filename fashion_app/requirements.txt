@@ -17,3 +17,4 @@ requests==2.33.1
 sh==2.2.2
 urllib3==2.6.3
 virtualenv==21.2.0
+gunicorn==23.0.0
